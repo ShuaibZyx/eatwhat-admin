@@ -1,0 +1,155 @@
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.el-card__body {
+  padding: 5px;
+}
+
+.el-header {
+  padding: 0;
+}
+
+/* 顶部导航栏开始 */
+.header {
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .img-box {
+  width: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header .title {
+  font-family: 楷体;
+  font-weight: bolder;
+}
+
+/* 顶部导航栏结束 */
+
+
+/* 底部开始 */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 楷体;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* 底部结束 */
+
+/* 食材部分开始 */
+.ingredient {
+  padding: 5px;
+  height: auto;
+}
+
+.ingredient .title {
+  margin: 10px 0;
+}
+
+.ingredient .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  margin: 7px;
+}
+
+
+/* 食材部分结束 */
+
+
+/* 菜谱部分开始 */
+.menu {
+  padding: 5px;
+  height: auto;
+}
+
+.menu .title {
+  margin: 10px 0;
+}
+
+.menu .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  margin: 7px;
+}
+
+.menu .desc {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu .desc .desc-title {
+  margin-bottom: 10px;
+  font-family: 楷体;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.menu .desc .brief {
+  padding: 10px;
+  font-family: 楷体;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* 菜谱部分结束 */
+
+/* 用户部分开始 */
+.user {
+  padding: 5px;
+  height: auto;
+}
+
+.user .title {
+  margin: 10px 0;
+}
+
+.user .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  margin: 7px;
+}
+
+/* 用户部分结束 */
+
+/* 权限控制开始 */
+.authority {
+  padding: 5px;
+  height: auto;
+}
+
+.authority .title {
+  margin: 10px 0;
+}
+
+.authority .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  margin: 7px;
+}
+/* 权限控制结束 */
